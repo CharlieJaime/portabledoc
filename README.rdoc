@@ -1,4 +1,4 @@
-== README
+==README
 
 This a Ruby on Rails Application, in which I replicated the functionality of sites like Evernote or Thinkery. 
 User will be able to and create a text file and save remotely.
