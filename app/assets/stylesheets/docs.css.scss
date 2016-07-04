@@ -4,7 +4,7 @@
 // DOCS INDEX
 #docs {
   .doc {
-    background: darkgrey;
+    background: #529ECC;
     width: 90%;
     min-height: 100px;
     margin: 1rem 1%;
@@ -47,7 +47,7 @@
 #doc_show {
   .title {
     @include bold_font;
-    color: #78594B;
+    color: #529ECC;
     font-size: 2.0rem;
     margin-bottom: 1.25rem;
     padding-bottom: 1rem;
@@ -66,9 +66,10 @@
       border-radius: 0.1rem;
       text-decoration: none;
       color: #529ECC;
-      border: 5px solid #529ECC;
       @include bold_font;
       background: transparent;
+    } & :hover{
+      box-shadow: 2px 2px 2px 2px #529ECC;
     }
   }
 }
